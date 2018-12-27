@@ -1,0 +1,88 @@
+/*
+  Theme Name:   SelyPimenta
+  Theme URI:    http://selypimenta.com/
+  Description:  Bard Child Theme for Selypimenta.com
+  Author:       Sel y Pimenta
+  Author URI:   http://selypimenta.com
+  Template:     bard
+  Version:      1.0.0
+  License: GPLv3 or later
+  License URI: http://www.gnu.org/licenses/gpl-3.0.en.html
+  Text Domain:  selypimenta
+*/
+
+/*----------
+Cookies
+----------*/
+
+.cookies-notice.hide {
+  display: none;
+}
+
+.cookies-notice {
+  position: fixed;
+  display: inline-block;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  padding: .4rem;
+  background: white;
+  border-top: 1px solid #ebebeb;
+  box-shadow: 0 2px 14px 0 #DDD;
+}
+
+.cookies-notice--text-container {
+  display: block;
+  text-align: center;
+  font-size: 13px;
+  line-height: 1.5;
+  padding-bottom: .5rem;
+}
+
+.cookies-notice--button-container {
+  display: block;
+  text-align: center;
+}
+
+.cookies-notice--button {
+  font-family: 'Montserrat';
+  font-size: 11px;
+  border: none;
+  width: auto;
+  cursor: pointer;
+  font-weight: 600;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #333333;
+  padding: 12px 15px;
+  -webkit-appearance: button;
+  -webkit-border-radius: 0;
+  overflow: visible;
+  margin: 0;
+  box-sizing: inherit;
+  outline: 0 !important;
+}
+
+.cookies-notice--button:hover {
+  background-color: #555555;
+}
+
+@media screen and (min-width: 400px) {
+  .cookies-notice {
+    display: flex;
+    padding: 1rem;
+  }
+
+  .cookies-notice--text-container {
+    flex-grow: 1;
+    align-self: center;
+    text-align: left;
+    padding-bottom: 0;
+    padding-right: 2rem;
+  }
+
+  .cookies-notice--button-container {
+    align-self: center;
+  }
+}
